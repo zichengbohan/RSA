@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05CB85A71E0D20D800EA33AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CB85A61E0D20D800EA33AB /* main.m */; };
+		05CB85AA1E0D20D800EA33AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CB85A91E0D20D800EA33AB /* AppDelegate.m */; };
+		05CB85AD1E0D20D800EA33AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CB85AC1E0D20D800EA33AB /* ViewController.m */; };
+		05CB85B01E0D20D800EA33AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05CB85AE1E0D20D800EA33AB /* Main.storyboard */; };
+		05CB85B21E0D20D800EA33AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05CB85B11E0D20D800EA33AB /* Assets.xcassets */; };
+		05CB85B51E0D20D800EA33AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05CB85B31E0D20D800EA33AB /* LaunchScreen.storyboard */; };
+		05CB85C01E0D20D800EA33AB /* RSApemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CB85BF1E0D20D800EA33AB /* RSApemTests.m */; };
+		05CB85CB1E0D20D800EA33AB /* RSApemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CB85CA1E0D20D800EA33AB /* RSApemUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05CB85BC1E0D20D800EA33AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05CB859A1E0D20D800EA33AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05CB85A11E0D20D800EA33AB;
+			remoteInfo = RSApem;
+		};
+		05CB85C71E0D20D800EA33AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05CB859A1E0D20D800EA33AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05CB85A11E0D20D800EA33AB;
+			remoteInfo = RSApem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05CB85A21E0D20D800EA33AB /* RSApem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSApem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CB85A61E0D20D800EA33AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05CB85A81E0D20D800EA33AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05CB85A91E0D20D800EA33AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05CB85AB1E0D20D800EA33AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		05CB85AC1E0D20D800EA33AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		05CB85AF1E0D20D800EA33AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05CB85B11E0D20D800EA33AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05CB85B41E0D20D800EA33AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05CB85B61E0D20D800EA33AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05CB85BB1E0D20D800EA33AB /* RSApemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSApemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CB85BF1E0D20D800EA33AB /* RSApemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSApemTests.m; sourceTree = "<group>"; };
+		05CB85C11E0D20D800EA33AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05CB85C61E0D20D800EA33AB /* RSApemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSApemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CB85CA1E0D20D800EA33AB /* RSApemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSApemUITests.m; sourceTree = "<group>"; };
+		05CB85CC1E0D20D800EA33AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05CB859F1E0D20D800EA33AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CB85B81E0D20D800EA33AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CB85C31E0D20D800EA33AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05CB85991E0D20D800EA33AB = {
+			isa = PBXGroup;
+			children = (
+				05CB85A41E0D20D800EA33AB /* RSApem */,
+				05CB85BE1E0D20D800EA33AB /* RSApemTests */,
+				05CB85C91E0D20D800EA33AB /* RSApemUITests */,
+				05CB85A31E0D20D800EA33AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05CB85A31E0D20D800EA33AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05CB85A21E0D20D800EA33AB /* RSApem.app */,
+				05CB85BB1E0D20D800EA33AB /* RSApemTests.xctest */,
+				05CB85C61E0D20D800EA33AB /* RSApemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05CB85A41E0D20D800EA33AB /* RSApem */ = {
+			isa = PBXGroup;
+			children = (
+				05CB85A81E0D20D800EA33AB /* AppDelegate.h */,
+				05CB85A91E0D20D800EA33AB /* AppDelegate.m */,
+				05CB85AB1E0D20D800EA33AB /* ViewController.h */,
+				05CB85AC1E0D20D800EA33AB /* ViewController.m */,
+				05CB85AE1E0D20D800EA33AB /* Main.storyboard */,
+				05CB85B11E0D20D800EA33AB /* Assets.xcassets */,
+				05CB85B31E0D20D800EA33AB /* LaunchScreen.storyboard */,
+				05CB85B61E0D20D800EA33AB /* Info.plist */,
+				05CB85A51E0D20D800EA33AB /* Supporting Files */,
+			);
+			path = RSApem;
+			sourceTree = "<group>";
+		};
+		05CB85A51E0D20D800EA33AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05CB85A61E0D20D800EA33AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05CB85BE1E0D20D800EA33AB /* RSApemTests */ = {
+			isa = PBXGroup;
+			children = (
+				05CB85BF1E0D20D800EA33AB /* RSApemTests.m */,
+				05CB85C11E0D20D800EA33AB /* Info.plist */,
+			);
+			path = RSApemTests;
+			sourceTree = "<group>";
+		};
+		05CB85C91E0D20D800EA33AB /* RSApemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05CB85CA1E0D20D800EA33AB /* RSApemUITests.m */,
+				05CB85CC1E0D20D800EA33AB /* Info.plist */,
+			);
+			path = RSApemUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05CB85A11E0D20D800EA33AB /* RSApem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05CB85CF1E0D20D800EA33AB /* Build configuration list for PBXNativeTarget "RSApem" */;
+			buildPhases = (
+				05CB859E1E0D20D800EA33AB /* Sources */,
+				05CB859F1E0D20D800EA33AB /* Frameworks */,
+				05CB85A01E0D20D800EA33AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSApem;
+			productName = RSApem;
+			productReference = 05CB85A21E0D20D800EA33AB /* RSApem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05CB85BA1E0D20D800EA33AB /* RSApemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05CB85D21E0D20D800EA33AB /* Build configuration list for PBXNativeTarget "RSApemTests" */;
+			buildPhases = (
+				05CB85B71E0D20D800EA33AB /* Sources */,
+				05CB85B81E0D20D800EA33AB /* Frameworks */,
+				05CB85B91E0D20D800EA33AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05CB85BD1E0D20D800EA33AB /* PBXTargetDependency */,
+			);
+			name = RSApemTests;
+			productName = RSApemTests;
+			productReference = 05CB85BB1E0D20D800EA33AB /* RSApemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05CB85C51E0D20D800EA33AB /* RSApemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05CB85D51E0D20D800EA33AB /* Build configuration list for PBXNativeTarget "RSApemUITests" */;
+			buildPhases = (
+				05CB85C21E0D20D800EA33AB /* Sources */,
+				05CB85C31E0D20D800EA33AB /* Frameworks */,
+				05CB85C41E0D20D800EA33AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05CB85C81E0D20D800EA33AB /* PBXTargetDependency */,
+			);
+			name = RSApemUITests;
+			productName = RSApemUITests;
+			productReference = 05CB85C61E0D20D800EA33AB /* RSApemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05CB859A1E0D20D800EA33AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "胥佰淼";
+				TargetAttributes = {
+					05CB85A11E0D20D800EA33AB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					05CB85BA1E0D20D800EA33AB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05CB85A11E0D20D800EA33AB;
+					};
+					05CB85C51E0D20D800EA33AB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05CB85A11E0D20D800EA33AB;
+					};
+				};
+			};
+			buildConfigurationList = 05CB859D1E0D20D800EA33AB /* Build configuration list for PBXProject "RSApem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05CB85991E0D20D800EA33AB;
+			productRefGroup = 05CB85A31E0D20D800EA33AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05CB85A11E0D20D800EA33AB /* RSApem */,
+				05CB85BA1E0D20D800EA33AB /* RSApemTests */,
+				05CB85C51E0D20D800EA33AB /* RSApemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05CB85A01E0D20D800EA33AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CB85B51E0D20D800EA33AB /* LaunchScreen.storyboard in Resources */,
+				05CB85B21E0D20D800EA33AB /* Assets.xcassets in Resources */,
+				05CB85B01E0D20D800EA33AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CB85B91E0D20D800EA33AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CB85C41E0D20D800EA33AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05CB859E1E0D20D800EA33AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CB85AD1E0D20D800EA33AB /* ViewController.m in Sources */,
+				05CB85AA1E0D20D800EA33AB /* AppDelegate.m in Sources */,
+				05CB85A71E0D20D800EA33AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CB85B71E0D20D800EA33AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CB85C01E0D20D800EA33AB /* RSApemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CB85C21E0D20D800EA33AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CB85CB1E0D20D800EA33AB /* RSApemUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05CB85BD1E0D20D800EA33AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05CB85A11E0D20D800EA33AB /* RSApem */;
+			targetProxy = 05CB85BC1E0D20D800EA33AB /* PBXContainerItemProxy */;
+		};
+		05CB85C81E0D20D800EA33AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05CB85A11E0D20D800EA33AB /* RSApem */;
+			targetProxy = 05CB85C71E0D20D800EA33AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05CB85AE1E0D20D800EA33AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05CB85AF1E0D20D800EA33AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05CB85B31E0D20D800EA33AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05CB85B41E0D20D800EA33AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05CB85CD1E0D20D800EA33AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05CB85CE1E0D20D800EA33AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05CB85D01E0D20D800EA33AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSApem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xu.RSApem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05CB85D11E0D20D800EA33AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSApem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xu.RSApem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		05CB85D31E0D20D800EA33AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSApemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xu.RSApemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSApem.app/RSApem";
+			};
+			name = Debug;
+		};
+		05CB85D41E0D20D800EA33AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSApemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xu.RSApemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSApem.app/RSApem";
+			};
+			name = Release;
+		};
+		05CB85D61E0D20D800EA33AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSApemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xu.RSApemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSApem;
+			};
+			name = Debug;
+		};
+		05CB85D71E0D20D800EA33AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSApemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xu.RSApemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSApem;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05CB859D1E0D20D800EA33AB /* Build configuration list for PBXProject "RSApem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CB85CD1E0D20D800EA33AB /* Debug */,
+				05CB85CE1E0D20D800EA33AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05CB85CF1E0D20D800EA33AB /* Build configuration list for PBXNativeTarget "RSApem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CB85D01E0D20D800EA33AB /* Debug */,
+				05CB85D11E0D20D800EA33AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05CB85D21E0D20D800EA33AB /* Build configuration list for PBXNativeTarget "RSApemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CB85D31E0D20D800EA33AB /* Debug */,
+				05CB85D41E0D20D800EA33AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05CB85D51E0D20D800EA33AB /* Build configuration list for PBXNativeTarget "RSApemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CB85D61E0D20D800EA33AB /* Debug */,
+				05CB85D71E0D20D800EA33AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05CB859A1E0D20D800EA33AB /* Project object */;
+}
